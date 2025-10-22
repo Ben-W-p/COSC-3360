@@ -1,0 +1,6 @@
+t1 = (1, 2, 3)
+t2 = (4, 5, 6)
+summed = list(map(lambda a_b: a_b[0] + a_b[1], zip(t1, t2)))
+print("t1:", t1)
+print("t2:", t2)
+print("Element-wise sum:", summed)
